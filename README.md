@@ -1,2 +1,2 @@
 # Book-Recommendation-System
-A book recommendation system
+This recommendation system utilizes Goodreads datasets to recommend books based on user preferences. It first filters books with a minimum number of ratings, processes the titles for similarity comparison, and then employs TF-IDF vectorization to compute the similarity between user-provided queries and book titles. Additionally, it incorporates collaborative filtering by analyzing interactions between users and books, generating recommendations based on user behavior. The system is implemented in Python, utilizing libraries such as pandas, scikit-learn, and numpy for data manipulation and machine learning tasks.
